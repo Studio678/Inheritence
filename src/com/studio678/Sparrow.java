@@ -1,7 +1,7 @@
 package com.studio678;
 
 public class Sparrow extends FlyingBirds {
-    public static void goingToGroup(){
-
+    public void goingToGround(){
+        System.out.println("Sparrow is going to ground");
     }
 }

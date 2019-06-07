@@ -5,12 +5,16 @@ public class Duck extends FlyingBirds {
 
     }
 
-    public void catchFish(){
+    private void catchFish(){
 
     }
 
     public void eat(){
         catchFish();
         super.eat();
+    }
+
+    public void goingToGround(){
+        System.out.println("Duck is going to ground");
     }
 }

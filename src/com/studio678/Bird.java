@@ -11,7 +11,7 @@ public class Bird {
     }
 
     public void eat(){
-        digeat();
-        engeat();
+        //digeat();
+        //engeat();
     }
 }
